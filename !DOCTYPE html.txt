@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Anniversary, [Nama Pasangan]!</h1>
+        <p>Here's a little surprise for you.</p>
+        <button onclick="showSurprise()">Click Me!</button>
+        <div id="surprise" class="hidden">
+            <p>You are the most amazing person in the world!</p>
+            <img src="surprise.jpg" alt="Surprise Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
